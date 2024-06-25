@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DF4D7852C29F11D00CD2215 /* SFWSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7842C29F11D00CD2215 /* SFWSAppDelegate.swift */; };
+		8DF4D78E2C29F11F00CD2215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF4D78D2C29F11F00CD2215 /* Assets.xcassets */; };
+		8DF4D79C2C29F11F00CD2215 /* SongsForWorshipSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D79B2C29F11F00CD2215 /* SongsForWorshipSampleTests.swift */; };
+		8DF4D7A62C29F11F00CD2215 /* SongsForWorshipSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7A52C29F11F00CD2215 /* SongsForWorshipSampleUITests.swift */; };
+		8DF4D7A82C29F11F00CD2215 /* SongsForWorshipSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7A72C29F11F00CD2215 /* SongsForWorshipSampleUITestsLaunchTests.swift */; };
+		8DF4D7C32C29F2BE00CD2215 /* songsforworshipsample-resources in Resources */ = {isa = PBXBuildFile; fileRef = 8DF4D7C22C29F2BE00CD2215 /* songsforworshipsample-resources */; };
+		8DF4D7C52C29F35500CD2215 /* SongsForWorship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF4D7BB2C29F15800CD2215 /* SongsForWorship.framework */; };
+		8DF4D7C62C29F35500CD2215 /* SongsForWorship.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF4D7BB2C29F15800CD2215 /* SongsForWorship.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8DF4D7C92C29F4C100CD2215 /* SFWSTunesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7C82C29F4C100CD2215 /* SFWSTunesLoader.swift */; };
+		8DF4D7D72C29F9B400CD2215 /* SFWSSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7D62C29F9B400CD2215 /* SFWSSong.swift */; };
+		8DF4D7D92C29F9E900CD2215 /* SFWSSongContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7D82C29F9E900CD2215 /* SFWSSongContainer.swift */; };
+		8DF4D7DD2C29FCA500CD2215 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7DC2C29FCA500CD2215 /* main.swift */; };
+		8DF4D7F42C2A7B7A00CD2215 /* SFWSSongTVCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7F32C2A7B7A00CD2215 /* SFWSSongTVCellViewModel.swift */; };
+		8DF4D7F72C2A7CB300CD2215 /* SFWSMetreCVCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF4D7F62C2A7CB300CD2215 /* SFWSMetreCVCellViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DF4D7982C29F11F00CD2215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF4D7792C29F11D00CD2215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DF4D7802C29F11D00CD2215;
+			remoteInfo = SongsForWorshipSample;
+		};
+		8DF4D7A22C29F11F00CD2215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF4D7792C29F11D00CD2215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DF4D7802C29F11D00CD2215;
+			remoteInfo = SongsForWorshipSample;
+		};
+		8DF4D7BA2C29F15800CD2215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF4D7B42C29F15800CD2215 /* SongsForWorship.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D99C17724CED391005B34F2;
+			remoteInfo = SongsForWorship;
+		};
+		8DF4D7BC2C29F15800CD2215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF4D7B42C29F15800CD2215 /* SongsForWorship.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D99C18024CED392005B34F2;
+			remoteInfo = SongsForWorshipTests;
+		};
+		8DF4D7BE2C29F15800CD2215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF4D7B42C29F15800CD2215 /* SongsForWorship.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D8D9B3925A50BDA00828D0E;
+			remoteInfo = SongsForWorshipUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DF4D7C72C29F35500CD2215 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8DF4D7C62C29F35500CD2215 /* SongsForWorship.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DF4D7812C29F11D00CD2215 /* SongsForWorshipSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongsForWorshipSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF4D7842C29F11D00CD2215 /* SFWSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWSAppDelegate.swift; sourceTree = "<group>"; };
+		8DF4D78D2C29F11F00CD2215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DF4D7922C29F11F00CD2215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF4D7972C29F11F00CD2215 /* SongsForWorshipSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongsForWorshipSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF4D79B2C29F11F00CD2215 /* SongsForWorshipSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsForWorshipSampleTests.swift; sourceTree = "<group>"; };
+		8DF4D7A12C29F11F00CD2215 /* SongsForWorshipSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongsForWorshipSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF4D7A52C29F11F00CD2215 /* SongsForWorshipSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsForWorshipSampleUITests.swift; sourceTree = "<group>"; };
+		8DF4D7A72C29F11F00CD2215 /* SongsForWorshipSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsForWorshipSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DF4D7B42C29F15800CD2215 /* SongsForWorship.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SongsForWorship.xcodeproj; path = "../../dv-sfw/SongsForWorship/SongsForWorship.xcodeproj"; sourceTree = "<group>"; };
+		8DF4D7C22C29F2BE00CD2215 /* songsforworshipsample-resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "songsforworshipsample-resources"; sourceTree = "<group>"; };
+		8DF4D7C82C29F4C100CD2215 /* SFWSTunesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWSTunesLoader.swift; sourceTree = "<group>"; };
+		8DF4D7D62C29F9B400CD2215 /* SFWSSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWSSong.swift; sourceTree = "<group>"; };
+		8DF4D7D82C29F9E900CD2215 /* SFWSSongContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWSSongContainer.swift; sourceTree = "<group>"; };
+		8DF4D7DC2C29FCA500CD2215 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8DF4D7F32C2A7B7A00CD2215 /* SFWSSongTVCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWSSongTVCellViewModel.swift; sourceTree = "<group>"; };
+		8DF4D7F62C2A7CB300CD2215 /* SFWSMetreCVCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFWSMetreCVCellViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DF4D77E2C29F11D00CD2215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF4D7C52C29F35500CD2215 /* SongsForWorship.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF4D7942C29F11F00CD2215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF4D79E2C29F11F00CD2215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DF4D7782C29F11D00CD2215 = {
+			isa = PBXGroup;
+			children = (
+				8DF4D7B42C29F15800CD2215 /* SongsForWorship.xcodeproj */,
+				8DF4D7832C29F11D00CD2215 /* SongsForWorshipSample */,
+				8DF4D79A2C29F11F00CD2215 /* SongsForWorshipSampleTests */,
+				8DF4D7A42C29F11F00CD2215 /* SongsForWorshipSampleUITests */,
+				8DF4D7822C29F11D00CD2215 /* Products */,
+				8DF4D7C42C29F35500CD2215 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DF4D7822C29F11D00CD2215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4D7812C29F11D00CD2215 /* SongsForWorshipSample.app */,
+				8DF4D7972C29F11F00CD2215 /* SongsForWorshipSampleTests.xctest */,
+				8DF4D7A12C29F11F00CD2215 /* SongsForWorshipSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF4D7832C29F11D00CD2215 /* SongsForWorshipSample */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4D7C22C29F2BE00CD2215 /* songsforworshipsample-resources */,
+				8DF4D7842C29F11D00CD2215 /* SFWSAppDelegate.swift */,
+				8DF4D78D2C29F11F00CD2215 /* Assets.xcassets */,
+				8DF4D7922C29F11F00CD2215 /* Info.plist */,
+				8DF4D7C82C29F4C100CD2215 /* SFWSTunesLoader.swift */,
+				8DF4D7D62C29F9B400CD2215 /* SFWSSong.swift */,
+				8DF4D7D82C29F9E900CD2215 /* SFWSSongContainer.swift */,
+				8DF4D7DC2C29FCA500CD2215 /* main.swift */,
+				8DF4D7F32C2A7B7A00CD2215 /* SFWSSongTVCellViewModel.swift */,
+				8DF4D7F62C2A7CB300CD2215 /* SFWSMetreCVCellViewModel.swift */,
+			);
+			path = SongsForWorshipSample;
+			sourceTree = "<group>";
+		};
+		8DF4D79A2C29F11F00CD2215 /* SongsForWorshipSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4D79B2C29F11F00CD2215 /* SongsForWorshipSampleTests.swift */,
+			);
+			path = SongsForWorshipSampleTests;
+			sourceTree = "<group>";
+		};
+		8DF4D7A42C29F11F00CD2215 /* SongsForWorshipSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4D7A52C29F11F00CD2215 /* SongsForWorshipSampleUITests.swift */,
+				8DF4D7A72C29F11F00CD2215 /* SongsForWorshipSampleUITestsLaunchTests.swift */,
+			);
+			path = SongsForWorshipSampleUITests;
+			sourceTree = "<group>";
+		};
+		8DF4D7B52C29F15800CD2215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DF4D7BB2C29F15800CD2215 /* SongsForWorship.framework */,
+				8DF4D7BD2C29F15800CD2215 /* SongsForWorshipTests.xctest */,
+				8DF4D7BF2C29F15800CD2215 /* SongsForWorshipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DF4D7C42C29F35500CD2215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DF4D7802C29F11D00CD2215 /* SongsForWorshipSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF4D7AB2C29F11F00CD2215 /* Build configuration list for PBXNativeTarget "SongsForWorshipSample" */;
+			buildPhases = (
+				8DF4D77D2C29F11D00CD2215 /* Sources */,
+				8DF4D77E2C29F11D00CD2215 /* Frameworks */,
+				8DF4D77F2C29F11D00CD2215 /* Resources */,
+				8DF4D7C72C29F35500CD2215 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongsForWorshipSample;
+			productName = SongsForWorshipSample;
+			productReference = 8DF4D7812C29F11D00CD2215 /* SongsForWorshipSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DF4D7962C29F11F00CD2215 /* SongsForWorshipSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF4D7AE2C29F11F00CD2215 /* Build configuration list for PBXNativeTarget "SongsForWorshipSampleTests" */;
+			buildPhases = (
+				8DF4D7932C29F11F00CD2215 /* Sources */,
+				8DF4D7942C29F11F00CD2215 /* Frameworks */,
+				8DF4D7952C29F11F00CD2215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF4D7992C29F11F00CD2215 /* PBXTargetDependency */,
+			);
+			name = SongsForWorshipSampleTests;
+			productName = SongsForWorshipSampleTests;
+			productReference = 8DF4D7972C29F11F00CD2215 /* SongsForWorshipSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DF4D7A02C29F11F00CD2215 /* SongsForWorshipSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF4D7B12C29F11F00CD2215 /* Build configuration list for PBXNativeTarget "SongsForWorshipSampleUITests" */;
+			buildPhases = (
+				8DF4D79D2C29F11F00CD2215 /* Sources */,
+				8DF4D79E2C29F11F00CD2215 /* Frameworks */,
+				8DF4D79F2C29F11F00CD2215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF4D7A32C29F11F00CD2215 /* PBXTargetDependency */,
+			);
+			name = SongsForWorshipSampleUITests;
+			productName = SongsForWorshipSampleUITests;
+			productReference = 8DF4D7A12C29F11F00CD2215 /* SongsForWorshipSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DF4D7792C29F11D00CD2215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8DF4D7802C29F11D00CD2215 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8DF4D7962C29F11F00CD2215 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8DF4D7802C29F11D00CD2215;
+					};
+					8DF4D7A02C29F11F00CD2215 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8DF4D7802C29F11D00CD2215;
+					};
+				};
+			};
+			buildConfigurationList = 8DF4D77C2C29F11D00CD2215 /* Build configuration list for PBXProject "SongsForWorshipSample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DF4D7782C29F11D00CD2215;
+			productRefGroup = 8DF4D7822C29F11D00CD2215 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8DF4D7B52C29F15800CD2215 /* Products */;
+					ProjectRef = 8DF4D7B42C29F15800CD2215 /* SongsForWorship.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DF4D7802C29F11D00CD2215 /* SongsForWorshipSample */,
+				8DF4D7962C29F11F00CD2215 /* SongsForWorshipSampleTests */,
+				8DF4D7A02C29F11F00CD2215 /* SongsForWorshipSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8DF4D7BB2C29F15800CD2215 /* SongsForWorship.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SongsForWorship.framework;
+			remoteRef = 8DF4D7BA2C29F15800CD2215 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8DF4D7BD2C29F15800CD2215 /* SongsForWorshipTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SongsForWorshipTests.xctest;
+			remoteRef = 8DF4D7BC2C29F15800CD2215 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8DF4D7BF2C29F15800CD2215 /* SongsForWorshipUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SongsForWorshipUITests.xctest;
+			remoteRef = 8DF4D7BE2C29F15800CD2215 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DF4D77F2C29F11D00CD2215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF4D78E2C29F11F00CD2215 /* Assets.xcassets in Resources */,
+				8DF4D7C32C29F2BE00CD2215 /* songsforworshipsample-resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF4D7952C29F11F00CD2215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF4D79F2C29F11F00CD2215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DF4D77D2C29F11D00CD2215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF4D7F72C2A7CB300CD2215 /* SFWSMetreCVCellViewModel.swift in Sources */,
+				8DF4D7852C29F11D00CD2215 /* SFWSAppDelegate.swift in Sources */,
+				8DF4D7DD2C29FCA500CD2215 /* main.swift in Sources */,
+				8DF4D7C92C29F4C100CD2215 /* SFWSTunesLoader.swift in Sources */,
+				8DF4D7D92C29F9E900CD2215 /* SFWSSongContainer.swift in Sources */,
+				8DF4D7F42C2A7B7A00CD2215 /* SFWSSongTVCellViewModel.swift in Sources */,
+				8DF4D7D72C29F9B400CD2215 /* SFWSSong.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF4D7932C29F11F00CD2215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF4D79C2C29F11F00CD2215 /* SongsForWorshipSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DF4D79D2C29F11F00CD2215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF4D7A82C29F11F00CD2215 /* SongsForWorshipSampleUITestsLaunchTests.swift in Sources */,
+				8DF4D7A62C29F11F00CD2215 /* SongsForWorshipSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DF4D7992C29F11F00CD2215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DF4D7802C29F11D00CD2215 /* SongsForWorshipSample */;
+			targetProxy = 8DF4D7982C29F11F00CD2215 /* PBXContainerItemProxy */;
+		};
+		8DF4D7A32C29F11F00CD2215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DF4D7802C29F11D00CD2215 /* SongsForWorshipSample */;
+			targetProxy = 8DF4D7A22C29F11F00CD2215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DF4D7A92C29F11F00CD2215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DF4D7AA2C29F11F00CD2215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF4D7AC2C29F11F00CD2215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4553A7542;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SongsForWorshipSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SongsForWorshipSample;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.SongsForWorshipSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DF4D7AD2C29F11F00CD2215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4553A7542;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SongsForWorshipSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SongsForWorshipSample;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.SongsForWorshipSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DF4D7AF2C29F11F00CD2215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4553A7542;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.SongsForWorshipSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongsForWorshipSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SongsForWorshipSample";
+			};
+			name = Debug;
+		};
+		8DF4D7B02C29F11F00CD2215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4553A7542;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.SongsForWorshipSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SongsForWorshipSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SongsForWorshipSample";
+			};
+			name = Release;
+		};
+		8DF4D7B22C29F11F00CD2215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4553A7542;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.SongsForWorshipSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SongsForWorshipSample;
+			};
+			name = Debug;
+		};
+		8DF4D7B32C29F11F00CD2215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4553A7542;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deovolentellc.SongsForWorshipSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SongsForWorshipSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DF4D77C2C29F11D00CD2215 /* Build configuration list for PBXProject "SongsForWorshipSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF4D7A92C29F11F00CD2215 /* Debug */,
+				8DF4D7AA2C29F11F00CD2215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF4D7AB2C29F11F00CD2215 /* Build configuration list for PBXNativeTarget "SongsForWorshipSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF4D7AC2C29F11F00CD2215 /* Debug */,
+				8DF4D7AD2C29F11F00CD2215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF4D7AE2C29F11F00CD2215 /* Build configuration list for PBXNativeTarget "SongsForWorshipSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF4D7AF2C29F11F00CD2215 /* Debug */,
+				8DF4D7B02C29F11F00CD2215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF4D7B12C29F11F00CD2215 /* Build configuration list for PBXNativeTarget "SongsForWorshipSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DF4D7B22C29F11F00CD2215 /* Debug */,
+				8DF4D7B32C29F11F00CD2215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DF4D7792C29F11D00CD2215 /* Project object */;
+}
